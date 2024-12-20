@@ -1,34 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <!-- API types that your app accesses -->
+  <dict>
     <key>NSPrivacyAccessedAPITypes</key>
     <array>
-        <string>camera</string>            <!-- Si tu app usa la cámara -->
-        <string>location</string>          <!-- Si tu app usa la ubicación -->
-        <string>microphone</string>        <!-- Si tu app usa el micrófono -->
-        <string>photos</string>            <!-- Si tu app usa el acceso a fotos -->
+      <string>location</string> <!-- Si tu app utiliza la ubicación -->
+      <string>photos</string>   <!-- Si tu app accede a fotos -->
     </array>
 
-    <!-- Types of data your app collects -->
     <key>NSPrivacyCollectedDataTypes</key>
     <array>
-        <string>email</string>             <!-- Si tu app recoge correos electrónicos -->
-        <string>contacts</string>          <!-- Si tu app accede a los contactos -->
-        <string>location</string>          <!-- Si tu app recoge datos de ubicación -->
-        <string>photos</string>            <!-- Si tu app guarda fotos -->
+      <string>location</string> <!-- Si tu app recopila datos de ubicación -->
+      <string>photos</string>   <!-- Si tu app recopila datos de fotos -->
     </array>
 
-    <!-- Domains that your app tracks for privacy purposes -->
     <key>NSPrivacyTrackingDomains</key>
-    <array>
-        <string>example.com</string>      <!-- Si tu app realiza seguimiento en un dominio -->
-        <string>example2.com</string>     <!-- Otro dominio si aplica -->
-    </array>
-
-    <!-- Tracking preference -->
+    <array/>
+    
     <key>NSPrivacyTracking</key>
-    <false/>                             <!-- Si tu app no hace seguimiento de usuarios -->
-</dict>
+    <false/> <!-- Si tu app no realiza seguimiento de usuarios -->
+  </dict>
 </plist>
