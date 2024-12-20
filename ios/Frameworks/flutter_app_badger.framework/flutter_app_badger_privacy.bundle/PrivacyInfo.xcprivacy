@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
+<dict>
+    <!-- API types that your app accede -->
     <key>NSPrivacyAccessedAPITypes</key>
     <array>
-      <string>location</string> <!-- Si tu app utiliza la ubicación -->
-      <string>photos</string>   <!-- Si tu app accede a fotos -->
     </array>
 
+    <!-- Data types collected by your app -->
     <key>NSPrivacyCollectedDataTypes</key>
     <array>
-      <string>location</string> <!-- Si tu app recopila datos de ubicación -->
-      <string>photos</string>   <!-- Si tu app recopila datos de fotos -->
     </array>
 
+    <!-- Tracking domains (if applicable) -->
     <key>NSPrivacyTrackingDomains</key>
     <array/>
     
+    <!-- App tracking preference -->
     <key>NSPrivacyTracking</key>
-    <false/> <!-- Si tu app no realiza seguimiento de usuarios -->
-  </dict>
+    <false/>
+</dict>
 </plist>
