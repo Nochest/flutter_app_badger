@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/Nochest/flutter_app_badger'
   s.license          = { :file => '../LICENSE' }
-  s.author           = 'Edouard Marquez'
+  s.author           = 'Josealdo Camogliano'
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
